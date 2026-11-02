@@ -2,6 +2,7 @@
 require_once __DIR__ . '/../../includes/auth.php';
 
 // Protect page: ensures user is logged in
+//ewwriwjhriewjrew
 $token = require_login();
 ?>
 <!DOCTYPE html>

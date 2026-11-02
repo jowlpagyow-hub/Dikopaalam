@@ -1,6 +1,7 @@
 <?php
 function load_env($path) {
     if (!file_exists($path)) {
+        
         return;
     }
     $lines = file($path, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
